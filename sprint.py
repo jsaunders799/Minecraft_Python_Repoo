@@ -18,6 +18,4 @@ xDistance = x2 - x1
 yDistance = y2 - y1
 zDistance = z2 - z1
 
-mc.postToChat (str('The player has moved x:' + xDistance +', y:' + yDistance +',z:'+ zDistance))
-
-               
+mc.postToChat('The player has moved x:' + str(xDistance) +', y:' + str(yDistance) +', z:'+ str(zDistance))
